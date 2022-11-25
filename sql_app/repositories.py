@@ -9,4 +9,9 @@ class CenterRepository:
  
  def fetch_all(db: Session, skip: int = 0, limit: int = 10):
      return db.query(models.Center).all()
+
+class OrderRepository:
+
+ def fetch_all(db: Session, _id):
+     return db.query(models.Order).filter(models.Order.center_id == _id).all()
  
