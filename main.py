@@ -7,7 +7,8 @@ from sql_app.repositories import OrderRepository
 from db import get_db, engine
 from typing import List,Optional
 import json
-
+import uvicorn
+import os
 
 app = FastAPI()
 
@@ -18,6 +19,7 @@ def get_all_items(name: Optional[str] = None,db: Session = Depends(get_db)):
     Get all the Items stored in database
     """
     return CenterRepository.fetch_all(db)
+
 
 @app.get("/order/{center_id}")
 def get_all_items(center_id: int, db: Session = Depends(get_db)):
@@ -35,3 +37,12 @@ def get_all_items(center_id: int):
         if center["center_id"] == center_id:
             centers.append(center)
     return centers
+
+
+if __name__ == "__main__":
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8000)),
+    )
+
