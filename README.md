@@ -20,6 +20,10 @@ psql --username postgres
 \copy orders FROM 'weekly_demand.csv' DELIMITER ',' CSV
 
 
+```
+Deploying
+=======
+
 
 psql \
   -h postgres.cgguaffp7qy0.us-east-1.rds.amazonaws.com -d postgres -U postgres \
