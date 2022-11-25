@@ -6,7 +6,7 @@ class Center(Base):
     __tablename__ = 'centers'
 
     center_id = Column(Integer, primary_key=True)
-    type = Column(String, nullable=False)
+    center_type = Column(String, nullable=False)
     city_code = Column(Integer, nullable=False)
     region_code = Column(Integer, nullable=False)
     op_area = Column(Float, nullable=False)

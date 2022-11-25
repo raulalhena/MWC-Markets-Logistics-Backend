@@ -7,7 +7,7 @@ CREATE TABLE centers (
 	city_code VARCHAR,
 	region_code VARCHAR,
 	center_type VARCHAR,
-	op_area VARCHAR
+	op_area FLOAT
 );
 
 CREATE TABLE orders (

@@ -7,6 +7,6 @@ class CenterRepository:
      return db.query(models.Center).filter(models.Center.id == _id).first()
  
  
- def fetch_all(db: Session, skip: int = 0, limit: int = 999):
-     return db.query(models.Center).offset(skip).limit(limit).all()
+ def fetch_all(db: Session, skip: int = 0, limit: int = 10):
+     return db.query(models.Center).all()
  
