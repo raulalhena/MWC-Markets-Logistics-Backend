@@ -19,4 +19,9 @@ psql --username postgres
 \copy centers FROM 'center_info.csv' DELIMITER ',' CSV
 \copy orders FROM 'weekly_demand.csv' DELIMITER ',' CSV
 
+
+
+psql \
+  -h postgres.cgguaffp7qy0.us-east-1.rds.amazonaws.com -d postgres -U postgres \
+  -c "\copy centers from './raw/center_info.csv' with delimiter as ','"
 ```
