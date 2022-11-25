@@ -1,0 +1,238 @@
+[
+
+    {
+
+        "center": "55",
+        "center_tipo": "C",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 900
+            },
+
+            {
+                "week": 2,
+                "order": 400
+            },
+
+            {
+                "week": 3,
+                "order": 500
+            },
+            {
+                "week": 4,
+                "order": 200
+            },
+            {
+                "week": 5,
+                "order": 100
+            },
+            {
+                "week": 6,
+                "order": 250
+            },
+            {
+                "week": 7,
+                "order": 520
+            }
+        ]
+
+    },
+    {
+
+        "center": "92",
+        "center_tipo": "C",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 900
+            },
+
+            {
+                "week": 2,
+                "order": 400
+            },
+
+            {
+                "week": 3,
+                "order": 500
+            },
+            {
+                "week": 4,
+                "order": 200
+            },
+            {
+                "week": 5,
+                "order": 100
+            },
+            {
+                "week": 6,
+                "order": 250
+            },
+            {
+                "week": 7,
+                "order": 520
+            }
+        ]
+
+    },
+    {
+
+        "center": "23",
+        "center_tipo": "A",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 900
+            },
+
+            {
+                "week": 2,
+                "order": 400
+            },
+
+            {
+                "week": 3,
+                "order": 500
+            },
+            {
+                "week": 4,
+                "order": 200
+            },
+            {
+                "week": 5,
+                "order": 100
+            },
+            {
+                "week": 6,
+                "order": 250
+            },
+            {
+                "week": 7,
+                "order": 520
+            }
+        ]
+
+    },
+    {
+
+        "center": "146",
+        "center_tipo": "B",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 700
+            },
+
+            {
+                "week": 2,
+                "order": 400
+            },
+
+            {
+                "week": 3,
+                "order": 450
+            },
+            {
+                "week": 4,
+                "order": 780
+            },
+            {
+                "week": 5,
+                "order": 480
+            },
+            {
+                "week": 6,
+                "order": 340
+            },
+            {
+                "week": 7,
+                "order": 230
+            }
+        ]
+
+    },
+    {
+
+        "center": "13",
+        "center_tipo": "B",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 500
+            },
+
+            {
+                "week": 2,
+                "order": 400
+            },
+
+            {
+                "week": 3,
+                "order": 450
+            },
+            {
+                "week": 4,
+                "order": 80
+            },
+            {
+                "week": 5,
+                "order": 340
+            },
+            {
+                "week": 6,
+                "order": 70
+            },
+            {
+                "week": 7,
+                "order": 430
+            }
+        ]
+
+    },
+    {
+
+        "center": "129",
+        "center_tipo": "A",
+        "records": [
+
+            {
+                "week": 1,
+                "order": 400
+            },
+
+            {
+                "week": 2,
+                "order": 120
+            },
+
+            {
+                "week": 3,
+                "order": 170
+            },
+            {
+                "week": 4,
+                "order": 230
+            },
+            {
+                "week": 5,
+                "order": 450
+            },
+            {
+                "week": 6,
+                "order": 90
+            },
+            {
+                "week": 7,
+                "order": 120
+            }
+        ]
+
+    }
+   
+]
