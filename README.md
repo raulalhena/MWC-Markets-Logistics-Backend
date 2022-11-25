@@ -20,3 +20,4 @@ psql --username postgres
 \copy orders FROM 'weekly_demand.csv' DELIMITER ',' CSV
 
 ```
+Deploying
